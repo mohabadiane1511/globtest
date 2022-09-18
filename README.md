@@ -44,10 +44,6 @@ function foo(array $intervals): array
     // Tableau contenant les intervalles imbriquees.
     $ranges = [];
     //Pour eviter les doublons 
-    /*$intervals = array_map('json_encode', $intervals);
-    $intervals = array_unique($intervals);
-    $intervals = array_map('json_decode', $intervals);*/
-
 
     $addrange = false;
     foreach ($intervals as $interval) {
