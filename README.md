@@ -43,8 +43,7 @@ function foo(array $intervals): array
 {
     // Tableau contenant les intervalles imbriquees.
     $ranges = [];
-    //Pour eviter les doublons 
-
+    
     $addrange = false;
     foreach ($intervals as $interval) {
 
